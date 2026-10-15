@@ -1,0 +1,22 @@
+{
+  "format": "avsim-studio/1",
+  "params": {},
+  "policy": {},
+  "hazards": [
+    {
+      "type": "brake",
+      "who": "L1",
+      "decel": 6.2,
+      "dur": 2.2,
+      "t0": 0.0,
+      "trig": 18.0
+    }
+  ],
+  "space": {
+    "h0_decel": [4.5, 7.2],
+    "h0_dur": [1.5, 2.8],
+    "h0_trig": [14.0, 26.0]
+  },
+  "exposure": 0.04,
+  "why": "Xe dẫn đường L1 phanh khẩn cấp để tránh chướng ngại vật bất ngờ trên phố đô thị. Gia tốc phanh 4.5 - 7.2 m/s² phù hợp với phanh gấp thực tế của xe cơ giới dân dụng mà không vượt quá giới hạn bám của lốp (mu*g ~ 7.8 m/s²). Tần suất khoảng 0.04 lần/chuyến đi dựa trên tỷ lệ các tình huống phanh khẩn cấp (hard braking events) ghi nhận từ nghiên cứu lái xe tự nhiên NHTSA 100-Car Study."
+}
